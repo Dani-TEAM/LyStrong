@@ -1,0 +1,221 @@
+:root {
+    --fs-1:18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-image: url(../Imagenes/Fondos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cont .logo{
+    width: 65px;
+    height: 65px;
+}
+
+.cont nav{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 70px;
+}
+
+nav a{
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    gap: 10px;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 2rem;
+}
+
+
+.cont .max-logo{
+    position: relative; 
+    animation: logo 3s alternate infinite;
+    height: 625px;
+    left: 350px;
+}
+/* animacion del logo */
+@keyframes logo {
+    from {
+        transform: translateY(5%);
+    }
+
+    
+}
+
+.contenedor-informacion{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.titulo{
+    margin-left: 425px;
+    font-size: 4rem;
+    color: burlywood;
+    margin-bottom: 20px;
+    position: relative;
+}
+.info-1{
+    width: 350px;
+    height: 400px;
+
+}
+
+.encabezado{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im{
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    color: rgb(129, 125, 125);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.tit-1{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.text-1{
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+.info-2{
+    width: 350px;
+    height: 400px;
+    margin-top: 5px;
+    padding: 10px;
+    
+    transition: all 1s;
+}
+
+.info-3{
+    width: 350px;
+    height: 400px;
+    transition: all 1s;
+}
+
+.info-4{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    transition: all 1s;
+}
+
+.info-5{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    transition: all 1s;
+}
+
+.info-6{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+    transition: all 1s;
+}
+/* info hover sltyle */
+.info-1:hover ,.info-2:hover,
+.info-3:hover ,.info-4:hover,
+.info-5:hover ,.info-6:hover {
+    transition: all 0.1s;
+    box-shadow: 8px 8px 20px #000;
+    transform: translateY(-5px)translateX(-5px);
+}
+
+/* Rutinas cartel */
+
+.Rutinas {
+    width: 100vw;
+    height: 20em;
+    margin: 10em 0%;
+    background-image: url(../Imagenes/rutina-cartel.webp);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.Rutinas::before {
+    content: '';
+    position: absolute;
+    background-color: #36363679;
+    width: 100vw;
+    height: 20em;
+}
+.Rutinas h3 {
+    font-size: 6rem;
+        margin: 0%;
+    z-index: 10;
+    -webkit-text-stroke: 2px #fff ;
+    color: transparent;
+
+}
+.Rutinas a {
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    z-index: 10;
+    font-size: 1.9rem;
+    transition: all 1s;
+}
+.Rutinas a::before {
+    content: '<';
+    color: #ffde5b;
+    margin-right: 2px;
+}
+.Rutinas a::after {
+    content: '>';
+    color: #ffde5b;
+    margin-left: 2px;
+}
+.Rutinas a:hover {
+    background-color: #ffde5b;
+    border: 2px solid #000 ;
+}
+
+
+

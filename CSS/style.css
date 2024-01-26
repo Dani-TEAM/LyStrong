@@ -1,0 +1,150 @@
+:root {
+    --fs-1:18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.cont{
+    background-image: url(../Imagenes/Fondos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    position: relative;
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    z-index: 50;
+    backdrop-filter: brul(20);
+}
+
+
+.logo{
+    width: 65px;
+    height: 65px;
+}
+
+nav{
+    padding: 10px 0px;
+    
+}
+
+nav a{
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    gap: 10px;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 2rem;
+}
+
+
+.max-logo{
+    position: relative;
+    margin-left: 350px;
+    z-index: 10;
+    animation: logo 3s alternate infinite;
+    height: 625px;
+}
+/* animacion del logo */
+@keyframes logo {
+    from {
+        transform: translateY(5%);
+    }
+
+    
+}
+
+.contenedor-informacion{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.titulo{
+    margin-left: 425px;
+    font-size: 4rem;
+    color: burlywood;
+    margin-bottom: 20px;
+    position: relative;
+}
+.info-1{
+    width: 350px;
+    height: 400px;
+
+}
+
+.encabezado{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.im{
+    width: 100px;
+    height: 100px;
+}
+
+.text{
+    color: rgb(129, 125, 125);
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.tit-1{
+    font-size: 30px;
+    margin-left: 5px;
+}
+.text-1{
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: burlywood;
+}
+
+.info-2{
+    width: 350px;
+    height: 400px;
+    margin-top: 5px;
+
+}
+
+.info-3{
+    width: 350px;
+    height: 400px;
+
+}
+
+.info-4{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.info-5{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.info-6{
+    width: 350px;
+    height: 400px;
+    margin-top: 30px;
+}
